@@ -1,9 +1,102 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<title>Practice</title>
 <head>
-	<title>plabon</title>
+	<style>
+	fieldset { width:180px;
+	           padding:35px;
+			   background-color:#E8E8FF;}
+
+	div.margin { background-color:#90DBFF;
+	             margin-right:70px;
+		         margin-left:70px;}
+		  
+		   
+	legend {background-color:#99D9EA;
+            font-size:25px;	}
+	
+	input {width:200px;
+	       height:20px;}
+		   
+	.btn_submit{ 
+			color:white;
+			background-color:#333;
+			height:50px;
+			width:70px;
+			radious:50%;
+			
+			}
+			   
+	div.Religion { font-size:14px;
+	              input-size:5px;}	
+
+    div.gender {text-align:left;}	
+    
+     div#header	{font-size:25px;
+	              text-align:center;
+				  background-color:#111111;
+				  color:white;}
+				  
+     div#menu {font-size:18px;
+	           color:white;
+			   background-color:#333333; }
+			   
+    li {  float: left;
+          display:inline; }
+	 
+    ul {  overflow: hidden;
+          background-color: #333333;}
+	  
+    li a { display: block;
+		   color: white;
+		   padding: 16px;
+		   text-decoration: none;}
+	
+	li a:hover { background-color: #000000;}
+	
+	</style>
 </head>
-<body bgcolor="green">
-	<marquee><h1 style="font-size: 80px;">hello this is plabon</h1></marquee>
-</body>
+ <body>
+
+		  <div id="header"><h1>Practice Side</h1></div>
+		  <div id="menu">
+		   <nav>plabon</nav>
+			  <ul>
+			  <li><a href="#">PLABON</a></li>
+			  <li><a href="https://www.facebook.com/jamil.khanbony?ref=br_rs">JAMIL</a></li>
+			  
+			  </ul>
+		  </div>
+		  
+	 <div class="margin">
+   <center>
+   <img src="cartoonman.jpg" style="height:200px; width:200px;border:5px solid #000; border-radius:50%;"/>
+	<form>
+	 <fieldset>
+        <legend> Registresion</legend>	 
+		 <input type="text"  placeholder="First Name" ><br><br>
+		 <input type="text"  placeholder="Last Name"><br><br>
+		 <input type="email" placeholder="email"><br><br>
+		 <input type="password" placeholder="password"><br><br>
+		 	
+		  <div class="gender">
+			<select>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+			</select><br><br>
+		  </div>
+		<div class="Religion">
+		  Religion:<br>
+		  <input type="radio" name="Religion" value="m"> Muslim
+		  <input type="radio" name="Religion" value="f">Hindu
+		  <input type="radio" name="Religion" value="c">Christan 
+		  <input type="radio" name="Religion" value="b">Buddho <br><br><br>
+		  <button  class="btn_submit"  >SUBMIT</button>
+		  </div>
+	  </fieldset>
+	</form><br>
+   </center>
+  </div>
+ </body>
 </html>
